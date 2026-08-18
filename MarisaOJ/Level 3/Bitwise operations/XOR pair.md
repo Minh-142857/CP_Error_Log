@@ -47,12 +47,11 @@ Ta biến đổi biểu thức ban đầu như sau:
 
 $$
 \begin{aligned}
-a[i] \oplus j = a[j] \oplus i
-&\Leftrightarrow a[i] \oplus (a[j] \oplus i) = j \\
+a[i] \oplus j = a[j] \oplus i &\Leftrightarrow a[i] \oplus (a[j] \oplus i) = j \\
 &\Leftrightarrow a[i] \oplus (i \oplus a[j]) = j \\
 &\Leftrightarrow (a[i] \oplus i) \oplus a[j] = j \\
 &\Leftrightarrow a[j] \oplus (a[i] \oplus i) = j \\
-&\Leftrightarrow a[j] \oplus j = a[i] \oplus i
+&\Leftrightarrow a[j] \oplus j = a[i] \oplus i \\
 \end{aligned}
 $$
 
