@@ -44,6 +44,7 @@ Sử dụng các phép toán ở phần trên, hãy tìm cách cô lập $i, j$ 
 <summary><b>Lời giải</b></summary>
 
 Ta biến đổi biểu thức ban đầu như sau:
+
 $$
 \begin{aligned}
 a[i] \oplus j = a[j] \oplus i &\Leftrightarrow a[i] \oplus (a[j] \oplus i) = j \\
