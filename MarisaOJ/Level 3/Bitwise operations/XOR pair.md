@@ -45,11 +45,12 @@ Sử dụng các phép toán ở phần trên, hãy tìm cách cô lập $i, j$ 
 
 Ta biến đổi biểu thức ban đầu như sau:
 
-$a[i] \oplus j = a[j] \oplus i \Leftrightarrow a[i] \oplus (a[j] \oplus i) = j$ <br>
-$\phantom{a[i] \oplus j = a[j] \oplus i} \Leftrightarrow a[i] \oplus (i \oplus a[j]) = j$ <br>
-$\phantom{a[i] \oplus j = a[j] \oplus i} \Leftrightarrow (a[i] \oplus i) \oplus a[j] = j$ <br>
-$\phantom{a[i] \oplus j = a[j] \oplus i} \Leftrightarrow a[j] \oplus (a[i] \oplus i) = j$ <br>
-$\phantom{a[i] \oplus j = a[j] \oplus i} \Leftrightarrow a[j] \oplus j = a[i] \oplus i$
+$a[i] \oplus j = a[j] \oplus i$ <br>
+$\Leftrightarrow a[i] \oplus (a[j] \oplus i) = j$ <br>
+$\Leftrightarrow a[i] \oplus (i \oplus a[j]) = j$ <br>
+$\Leftrightarrow (a[i] \oplus i) \oplus a[j] = j$ <br>
+$\Leftrightarrow a[j] \oplus (a[i] \oplus i) = j$ <br>
+$\Leftrightarrow a[j] \oplus j = a[i] \oplus i$
 
 $\Rightarrow$ Bài toán trở thành tìm số cặp $(i, j)$ sao cho $C[i] = C[j]$, với $C[x] = a[x] \oplus x$.
 
