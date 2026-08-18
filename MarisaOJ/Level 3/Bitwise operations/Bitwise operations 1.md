@@ -15,6 +15,9 @@ In ra số nguyên sau mỗi truy vấn.
 - Dòng đầu tiên chứa 1 số nguyên $q$ ($1 \le q \le 10^5$).
 - $q$ dòng tiếp theo, mỗi dòng chứa 2 số nguyên $c, k$ ($1 \le c \le 3$, $0 \le k \le 31$).
 
+# OUTPUT
+In ra số nguyên sau mỗi truy vấn.
+
 # EXAMPLE
 INPUT:
 ```text
