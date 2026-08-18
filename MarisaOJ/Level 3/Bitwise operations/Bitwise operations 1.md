@@ -1,5 +1,5 @@
 # ĐỀ BÀI
-Giới hạn thời gian: `1s`
+Giới hạn thời gian: `1000 ms`
 
 Giới hạn bộ nhớ: `256 MB`
 
@@ -47,11 +47,16 @@ Các thao tác cơ bản trên bit thứ k (**LƯU Ý**: Nên dùng `1U` để t
 ```
 
 # LỜI GIẢI
+<details>
+<summary><b>Lời giải</b></summary>
+
 Sử dụng các phép toán ở phần trên để xử lý từng loại truy vấn.
 
 **Độ phức tạp:** $O(1)$ mỗi truy vấn.
 
 **LƯU Ý**: Vì số nguyên của ta **KHÔNG ÂM**, ta nên để kiểu dữ liệu `unsigned int` và dùng `1U` khi thao tác bit shift.
+
+</details>
 
 <details>
 <summary><b>Code mẫu (C++)</b></summary>
@@ -69,6 +74,7 @@ void solve(){
     }
 }
 ```
+
 </details>
 
 
